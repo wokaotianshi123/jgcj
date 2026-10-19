@@ -1,311 +1,311 @@
 [
   {
-    "key": "茅台资源站采集接口",
-    "name": "茅台资源站采集接口",
+    "key": "赞助茅台资源站采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 体育 / 舞蹈 / 新闻",
+    "name": "赞助茅台资源站采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 体育 / 舞蹈 / 新闻",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "如意资源网采集接口",
-    "name": "如意资源网采集接口",
+    "key": "赞助如意资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "赞助如意资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://cj.rycjapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "影剧资源网采集接口",
-    "name": "影剧资源网采集接口",
+    "key": "赞助影剧资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 新闻",
+    "name": "赞助影剧资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 新闻",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "黑料资源网采集接口大全",
-    "name": "黑料资源网采集接口大全",
+    "key": "赞助黑料资源网采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API小说 / 其他",
+    "name": "赞助黑料资源网采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS / API小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.heiliaozyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "红牛资源采集地址",
-    "name": "红牛资源采集地址",
+    "key": "赞助红牛资源采集地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
+    "name": "赞助红牛资源采集地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "光速资源站采集接口地址",
-    "name": "光速资源站采集接口地址",
+    "key": "赞助光速资源站采集接口地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 其他",
+    "name": "赞助光速资源站采集接口地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "速播资源采集规则地址",
-    "name": "速播资源采集规则地址",
+    "key": "赞助速播资源采集规则地址苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "赞助速播资源采集规则地址苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://subocj.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "豪华资源网采集接口地址",
-    "name": "豪华资源网采集接口地址",
+    "key": "赞助豪华资源网采集接口地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
+    "name": "赞助豪华资源网采集接口地址苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "虎牙资源采集网采集接口",
-    "name": "虎牙资源采集网采集接口",
+    "key": "赞助虎牙资源采集网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频",
+    "name": "赞助虎牙资源采集网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "爱奇艺资源站采集接口",
-    "name": "爱奇艺资源站采集接口",
+    "key": "赞助爱奇艺资源站采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
+    "name": "赞助爱奇艺资源站采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "豆瓣资源采集站采集接口大全",
-    "name": "豆瓣资源采集站采集接口大全",
+    "key": "赞助豆瓣资源采集站采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 短视频 / 新闻",
+    "name": "赞助豆瓣资源采集站采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 短视频 / 新闻",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.dbzy5.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "奶香香资源站采集接口",
-    "name": "奶香香资源站采集接口",
+    "key": "赞助奶香香资源站采集接口API小说 / 其他",
+    "name": "赞助奶香香资源站采集接口API小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://Naixxzy.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "魔都动漫资源采集网采集接口",
-    "name": "魔都动漫资源采集网采集接口",
+    "key": "赞助魔都动漫资源采集网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺",
+    "name": "赞助魔都动漫资源采集网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "奥斯卡资源API采集接口大全",
-    "name": "奥斯卡资源API采集接口大全",
+    "key": "赞助奥斯卡资源API采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API小说 / 其他",
+    "name": "赞助奥斯卡资源API采集接口大全苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://aosikazy.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "玉兔资源采集接口",
-    "name": "玉兔资源采集接口",
+    "key": "赞助玉兔资源采集接口API小说 / 其他",
+    "name": "赞助玉兔资源采集接口API小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://apiyutu.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "ikun资源网采集接口",
-    "name": "ikun资源网采集接口",
+    "key": "赞助ikun资源网采集接口API电影 / 电视剧 / 动漫 / 小说",
+    "name": "赞助ikun资源网采集接口API电影 / 电视剧 / 动漫 / 小说",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "大众资源采集接口",
-    "name": "大众资源采集接口",
+    "key": "大众资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺",
+    "name": "大众资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://cdn.dzzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "UU资源网采集接口",
-    "name": "UU资源网采集接口",
+    "key": "UU资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺",
+    "name": "UU资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/http://localhost/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "西瓜资源采集接口",
-    "name": "西瓜资源采集接口",
+    "key": "西瓜资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺",
+    "name": "西瓜资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS电影 / 电视剧 / 动漫 / 综艺",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "无水印资源网采集接口",
-    "name": "无水印资源网采集接口",
+    "key": "无水印资源网采集接口苹果cms / 海洋cms / API电影 / 电视剧 / 动漫 / 短视频",
+    "name": "无水印资源网采集接口苹果cms / 海洋cms / API电影 / 电视剧 / 动漫 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "猫眼资源站采集接口",
-    "name": "猫眼资源站采集接口",
+    "key": "猫眼资源站采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
+    "name": "猫眼资源站采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "OK资源采集网采集接口",
-    "name": "OK资源采集网采集接口",
+    "key": "OK资源采集网采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 直播 / 其他",
+    "name": "OK资源采集网采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 直播 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/http://api.okzyw.net/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "U酷资源网采集地址",
-    "name": "U酷资源网采集地址",
+    "key": "U酷资源网采集地址苹果cms / 海洋cms电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "U酷资源网采集地址苹果cms / 海洋cms电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.ukuapi88.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "量子资源网资源采集接口",
-    "name": "量子资源网资源采集接口",
+    "key": "量子资源网资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "量子资源网资源采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / 赤兔CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://cj.lziapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "最大资源网采集接口",
-    "name": "最大资源网采集接口",
+    "key": "最大资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 直播 / 其他",
+    "name": "最大资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 直播 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "天涯影视资源网采集接口",
-    "name": "天涯影视资源网采集接口",
+    "key": "天涯影视资源网采集接口苹果cms / 海洋cms / 飞飞cms电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
+    "name": "天涯影视资源网采集接口苹果cms / 海洋cms / 飞飞cms电影 / 电视剧 / 动漫 / 综艺 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://tyyszyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "电影天堂采集综合资源接口",
-    "name": "电影天堂采集综合资源接口",
+    "key": "电影天堂采集综合资源接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "电影天堂采集综合资源接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "百度资源采集接口",
-    "name": "百度资源采集接口",
+    "key": "百度资源采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 其他",
+    "name": "百度资源采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 体育 / 短视频 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "鸭鸭（丫丫）资源网采集接口",
-    "name": "鸭鸭（丫丫）资源网采集接口",
+    "key": "鸭鸭（丫丫）资源网采集接口API电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 其他",
+    "name": "鸭鸭（丫丫）资源网采集接口API电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "牛牛资源网采集接口",
-    "name": "牛牛资源网采集接口",
+    "key": "牛牛资源网采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 其他",
+    "name": "牛牛资源网采集接口苹果cms电影 / 电视剧 / 动漫 / 综艺 / 小说 / 体育 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "360资源站采集接口",
-    "name": "360资源站采集接口",
+    "key": "360资源站采集接口苹果cms / 海洋cms / 飞飞cms / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "360资源站采集接口苹果cms / 海洋cms / 飞飞cms / 赤兔CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://360zyzz.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "极速资源网采集接口",
-    "name": "极速资源网采集接口",
+    "key": "极速资源网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "极速资源网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "暴风资源网采集接口",
-    "name": "暴风资源网采集接口",
+    "key": "暴风资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "暴风资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "大地资源采集接口",
-    "name": "大地资源采集接口",
+    "key": "大地资源采集接口苹果cms小说 / 其他",
+    "name": "大地资源采集接口苹果cms小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "非凡资源网采集接口",
-    "name": "非凡资源网采集接口",
+    "key": "非凡资源网采集接口API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "非凡资源网采集接口API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "麒麟资源站全站采集接口",
-    "name": "麒麟资源站全站采集接口",
+    "key": "麒麟资源站全站采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "麒麟资源站全站采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS / API电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "无尽资源网采集接口",
-    "name": "无尽资源网采集接口",
+    "key": "无尽资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
+    "name": "无尽资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS电影 / 电视剧 / 动漫 / 综艺 / 短视频",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.wujinapi.me/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "久久热资源网采集接口",
-    "name": "久久热资源网采集接口",
+    "key": "久久热资源网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS小说 / 其他",
+    "name": "久久热资源网采集接口苹果cms / 海洋cms / 飞飞cms / 赞片CMS小说 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
   {
-    "key": "极品资源网采集接口",
-    "name": "极品资源网采集接口",
+    "key": "极品资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 其他",
+    "name": "极品资源网采集接口苹果cms / 海洋cms / 飞飞cms / 马克斯CMS / 赞片CMS / 赤兔CMS电影 / 其他",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://jipinzyapi.com/api.php/provide/vod/",
     "searchable": 1,
