@@ -1,160 +1,124 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "xt2o": {
-      "name": "赞助茅台资源站采集接口苹果cms",
+    "6inm": {
+      "name": "茅台资源站采集接口",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod"
     },
-    "a0mi": {
-      "name": "赞助如意资源网采集接口苹果cms",
+    "wcbn": {
+      "name": "如意资源网采集接口",
       "api": "https://cj.rycjapi.com/api.php/provide/vod"
     },
-    "jueh": {
-      "name": "赞助影剧资源网采集接口苹果cms电影",
+    "6szw": {
+      "name": "影剧资源网采集接口",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod"
     },
-    "s5sg": {
-      "name": "赞助黑料资源网采集接口大全苹果cms小说",
+    "4vj2": {
+      "name": "黑料资源网采集接口大全",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod"
     },
-    "7g0y": {
-      "name": "赞助红牛资源采集地址苹果cms电影",
+    "vlid": {
+      "name": "红牛资源采集地址",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod"
     },
-    "1nm4": {
-      "name": "赞助光速资源站采集接口地址苹果cms电影",
+    "zvox": {
+      "name": "光速资源站采集接口地址",
       "api": "https://api.guangsuapi.com/api.php/provide/vod"
     },
-    "bcmg": {
-      "name": "赞助速播资源采集规则地址苹果cms电影",
+    "77xl": {
+      "name": "速播资源采集规则地址",
       "api": "https://subocj.com/api.php/provide/vod"
     },
-    "hc9h": {
-      "name": "赞助豪华资源网采集接口地址苹果cms电影",
+    "1065": {
+      "name": "豪华资源网采集接口地址",
       "api": "https://hhzyapi.com/api.php/provide/vod"
     },
-    "wwl5": {
-      "name": "赞助虎牙资源采集网采集接口苹果cms电影",
+    "ldsf": {
+      "name": "虎牙资源采集网采集接口",
       "api": "https://www.huyaapi.com/api.php/provide/vod"
     },
-    "zegt": {
-      "name": "赞助爱奇艺资源站采集接口苹果cms电影",
+    "q1lg": {
+      "name": "爱奇艺资源站采集接口",
       "api": "https://www.iqiyizyapi.com/api.php/provide/vod"
     },
-    "annn": {
-      "name": "赞助豆瓣资源采集站采集接口大全苹果cms电影",
+    "khzp": {
+      "name": "豆瓣资源采集站采集接口大全",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod"
     },
-    "mky4": {
-      "name": "赞助奶香香资源站采集接口API小说",
+    "bl98": {
+      "name": "奶香香资源站采集接口",
       "api": "https://Naixxzy.com/api.php/provide/vod"
     },
-    "id86": {
-      "name": "赞助魔都动漫资源采集网采集接口苹果cms电影",
+    "875x": {
+      "name": "魔都动漫资源采集网采集接口",
       "api": "https://www.mdzyapi.com/api.php/provide/vod"
     },
-    "zbi2": {
-      "name": "赞助奥斯卡资源API采集接口大全苹果cms小说",
+    "ow5z": {
+      "name": "奥斯卡资源API采集接口大全",
       "api": "https://aosikazy.com/api.php/provide/vod"
     },
-    "wvbj": {
-      "name": "赞助玉兔资源采集接口API小说",
+    "5coz": {
+      "name": "玉兔资源采集接口",
       "api": "https://apiyutu.com/api.php/provide/vod"
     },
-    "af5m": {
-      "name": "赞助ikun资源网采集接口API电影",
+    "n2gq": {
+      "name": "ikun资源网采集接口",
       "api": "https://ikunzyapi.com/api.php/provide/vod"
     },
-    "3dzo": {
-      "name": "大众资源采集接口苹果cms",
-      "api": "https://cdn.dzzyapi.com/api.php/provide/vod"
-    },
-    "trnd": {
-      "name": "UU资源网采集接口苹果cms",
-      "api": "http://localhost/api.php/provide/vod"
-    },
-    "0bmb": {
-      "name": "西瓜资源采集接口苹果cms电影",
-      "api": "https://caiji.xgzyapi.com/api.php/provide/vod"
-    },
-    "jzfw": {
-      "name": "无水印资源网采集接口苹果cms",
-      "api": "https://api.wsyzy.net/api.php/provide/vod"
-    },
-    "xxk4": {
-      "name": "猫眼资源站采集接口苹果cms电影",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod"
-    },
-    "j9lo": {
-      "name": "OK资源采集网采集接口苹果cms电影直播",
-      "api": "http://api.okzyw.net/api.php/provide/vod"
-    },
-    "218r": {
-      "name": "U酷资源网采集地址苹果cms电影",
-      "api": "https://api.ukuapi88.com/api.php/provide/vod"
-    },
-    "omsf": {
-      "name": "量子资源网资源采集接口苹果cms",
-      "api": "https://cj.lziapi.com/api.php/provide/vod"
-    },
-    "9fjs": {
-      "name": "最大资源网采集接口苹果cms直播",
-      "api": "https://api.zuidapi.com/api.php/provide/vod"
-    },
-    "oiu5": {
-      "name": "天涯影视资源网采集接口苹果cms电影",
+    "rhvd": {
+      "name": "天涯影视资源网采集接口",
       "api": "https://tyyszyapi.com/api.php/provide/vod"
     },
-    "qlqh": {
-      "name": "电影天堂采集综合资源接口苹果cms电影",
+    "d396": {
+      "name": "电影天堂采集综合资源接口",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod"
     },
-    "myn9": {
-      "name": "百度资源采集接口苹果cms电影",
+    "1kjr": {
+      "name": "百度资源采集接口",
       "api": "https://api.apibdzy.com/api.php/provide/vod"
     },
-    "95nj": {
-      "name": "鸭鸭（丫丫）资源网采集接口API电影",
+    "fzos": {
+      "name": "鸭鸭丫丫资源网采集接口",
       "api": "https://cj.yayazy.net/api.php/provide/vod"
     },
-    "6y8b": {
-      "name": "牛牛资源网采集接口苹果cms电影",
+    "forh": {
+      "name": "牛牛资源网采集接口",
       "api": "https://api.niuniuzy.me/api.php/provide/vod"
     },
-    "76pw": {
-      "name": "360资源站采集接口苹果cms电影",
+    "lws6": {
+      "name": "360资源站采集接口",
       "api": "https://360zyzz.com/api.php/provide/vod"
     },
-    "0lo4": {
-      "name": "极速资源网采集接口苹果cms",
+    "5681": {
+      "name": "极速资源网采集接口",
       "api": "https://jszyapi.com/api.php/provide/vod"
     },
-    "bjhx": {
-      "name": "暴风资源网采集接口苹果cms电影",
+    "rpjz": {
+      "name": "暴风资源网采集接口",
       "api": "https://bfzyapi.com/api.php/provide/vod"
     },
-    "310y": {
-      "name": "大地资源采集接口苹果cms小说",
+    "0xn3": {
+      "name": "大地资源采集接口",
       "api": "https://dadiapi.com/api.php/provide/vod"
     },
-    "fa1f": {
-      "name": "非凡资源网采集接口API电影",
+    "ql6b": {
+      "name": "非凡资源网采集接口",
       "api": "http://api.ffzyapi.com/api.php/provide/vod"
     },
-    "y8ga": {
-      "name": "麒麟资源站全站采集接口苹果cms",
+    "uury": {
+      "name": "麒麟资源站全站采集接口",
       "api": "http://www.qilinzyz.com/api.php/provide/vod"
     },
-    "sch6": {
-      "name": "无尽资源网采集接口苹果cms电影",
+    "sbhk": {
+      "name": "无尽资源网采集接口",
       "api": "https://api.wujinapi.me/api.php/provide/vod"
     },
-    "roku": {
-      "name": "久久热资源网采集接口苹果cms小说",
+    "v6y2": {
+      "name": "久久热资源网采集接口",
       "api": "https://99reapi.com/api.php/provide/vod"
     },
-    "74sy": {
-      "name": "极品资源网采集接口苹果cms电影",
+    "iq4p": {
+      "name": "极品资源网采集接口",
       "api": "https://jipinzyapi.com/api.php/provide/vod"
     }
   }
