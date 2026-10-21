@@ -1,129 +1,127 @@
 {
   "format": "duanju-custom-sources",
   "version": 1,
-  "count": 20,
+  "count": 30,
   "sites": [
     {
-      "43ef": {
-        "name": "茅台资源站采集接口",
-        "url": "https://caiji.maotaizy.cc"
-      },
-      "hxvj": {
-        "name": "如意资源网采集接口",
-        "url": "https://cj.rycjapi.com"
-      },
-      "n04r": {
-        "name": "影剧资源网采集接口",
-        "url": "https://caiji.maotaizy.cc"
-      },
-      "kkal": {
-        "name": "黑料资源网采集接口大全",
-        "url": "https://www.heiliaozyapi.com"
-      },
-      "v5y3": {
-        "name": "红牛资源采集地址",
-        "url": "https://www.hongniuzy2.com"
-      },
-      "wmys": {
-        "name": "光速资源站采集接口地址",
-        "url": "https://api.guangsuapi.com"
-      },
-      "ih6z": {
-        "name": "速播资源采集规则地址",
-        "url": "https://subocj.com"
-      },
-      "qecq": {
-        "name": "豪华资源网采集接口地址",
-        "url": "https://hhzyapi.com"
-      },
-      "51ug": {
-        "name": "虎牙资源采集网采集接口",
-        "url": "https://www.huyaapi.com"
-      },
-      "puxm": {
-        "name": "爱奇艺资源站采集接口",
-        "url": "https://www.iqiyizyapi.com"
-      },
-      "4yam": {
-        "name": "豆瓣资源采集站采集接口大全",
-        "url": "https://caiji.dbzy5.com"
-      },
-      "sv4w": {
-        "name": "奶香香资源站采集接口",
-        "url": "https://Naixxzy.com"
-      },
-      "ab44": {
-        "name": "魔都动漫资源采集网采集接口",
-        "url": "https://www.mdzyapi.com"
-      },
-      "0o4f": {
-        "name": "奥斯卡资源API采集接口大全",
-        "url": "https://aosikazy.com"
-      },
-      "5m80": {
-        "name": "玉兔资源采集接口",
-        "url": "https://apiyutu.com"
-      },
-      "6zrg": {
-        "name": "ikun资源网采集接口",
-        "url": "https://ikunzyapi.com"
-      },
-      "twwb": {
-        "name": "天涯影视资源网采集接口",
-        "url": "https://tyyszyapi.com"
-      },
-      "778p": {
-        "name": "电影天堂采集综合资源接口",
-        "url": "http://caiji.dyttzyapi.com"
-      },
-      "nvyw": {
-        "name": "百度资源采集接口",
-        "url": "https://api.apibdzy.com"
-      },
-      "w9jl": {
-        "name": "鸭鸭丫丫资源网采集接口",
-        "url": "https://cj.yayazy.net"
-      },
-      "2gsf": {
-        "name": "牛牛资源网采集接口",
-        "url": "https://api.niuniuzy.me"
-      },
-      "9c1q": {
-        "name": "360资源站采集接口",
-        "url": "https://360zyzz.com"
-      },
-      "rtcs": {
-        "name": "极速资源网采集接口",
-        "url": "https://jszyapi.com"
-      },
-      "i7jy": {
-        "name": "暴风资源网采集接口",
-        "url": "https://bfzyapi.com"
-      },
-      "959r": {
-        "name": "大地资源采集接口",
-        "url": "https://dadiapi.com"
-      },
-      "zwh6": {
-        "name": "非凡资源网采集接口",
-        "url": "http://api.ffzyapi.com"
-      },
-      "9az6": {
-        "name": "麒麟资源站全站采集接口",
-        "url": "http://www.qilinzyz.com"
-      },
-      "h0wf": {
-        "name": "无尽资源网采集接口",
-        "url": "https://api.wujinapi.me"
-      },
-      "y4ys": {
-        "name": "久久热资源网采集接口",
-        "url": "https://99reapi.com"
-      },
-      "dwcb": {
-        "name": "极品资源网采集接口",
-        "url": "https://jipinzyapi.com"
-      }
+      "name": "茅台资源站采集接口",
+      "url": "https://caiji.maotaizy.cc"
+    },
+    {
+      "name": "如意资源网采集接口",
+      "url": "https://cj.rycjapi.com"
+    },
+    {
+      "name": "影剧资源网采集接口",
+      "url": "https://caiji.maotaizy.cc"
+    },
+    {
+      "name": "黑料资源网采集接口大全",
+      "url": "https://www.heiliaozyapi.com"
+    },
+    {
+      "name": "红牛资源采集地址",
+      "url": "https://www.hongniuzy2.com"
+    },
+    {
+      "name": "光速资源站采集接口地址",
+      "url": "https://api.guangsuapi.com"
+    },
+    {
+      "name": "速播资源采集规则地址",
+      "url": "https://subocj.com"
+    },
+    {
+      "name": "豪华资源网采集接口地址",
+      "url": "https://hhzyapi.com"
+    },
+    {
+      "name": "虎牙资源采集网采集接口",
+      "url": "https://www.huyaapi.com"
+    },
+    {
+      "name": "爱奇艺资源站采集接口",
+      "url": "https://www.iqiyizyapi.com"
+    },
+    {
+      "name": "豆瓣资源采集站采集接口大全",
+      "url": "https://caiji.dbzy5.com"
+    },
+    {
+      "name": "奶香香资源站采集接口",
+      "url": "https://Naixxzy.com"
+    },
+    {
+      "name": "魔都动漫资源采集网采集接口",
+      "url": "https://www.mdzyapi.com"
+    },
+    {
+      "name": "奥斯卡资源API采集接口大全",
+      "url": "https://aosikazy.com"
+    },
+    {
+      "name": "玉兔资源采集接口",
+      "url": "https://apiyutu.com"
+    },
+    {
+      "name": "ikun资源网采集接口",
+      "url": "https://ikunzyapi.com"
+    },
+    {
+      "name": "天涯影视资源网采集接口",
+      "url": "https://tyyszyapi.com"
+    },
+    {
+      "name": "电影天堂采集综合资源接口",
+      "url": "http://caiji.dyttzyapi.com"
+    },
+    {
+      "name": "百度资源采集接口",
+      "url": "https://api.apibdzy.com"
+    },
+    {
+      "name": "鸭鸭丫丫资源网采集接口",
+      "url": "https://cj.yayazy.net"
+    },
+    {
+      "name": "牛牛资源网采集接口",
+      "url": "https://api.niuniuzy.me"
+    },
+    {
+      "name": "360资源站采集接口",
+      "url": "https://360zyzz.com"
+    },
+    {
+      "name": "极速资源网采集接口",
+      "url": "https://jszyapi.com"
+    },
+    {
+      "name": "暴风资源网采集接口",
+      "url": "https://bfzyapi.com"
+    },
+    {
+      "name": "大地资源采集接口",
+      "url": "https://dadiapi.com"
+    },
+    {
+      "name": "非凡资源网采集接口",
+      "url": "http://api.ffzyapi.com"
+    },
+    {
+      "name": "麒麟资源站全站采集接口",
+      "url": "http://www.qilinzyz.com"
+    },
+    {
+      "name": "无尽资源网采集接口",
+      "url": "https://api.wujinapi.me"
+    },
+    {
+      "name": "久久热资源网采集接口",
+      "url": "https://99reapi.com"
+    },
+    {
+      "name": "极品资源网采集接口",
+      "url": "https://jipinzyapi.com"
     }
   ]
 }
