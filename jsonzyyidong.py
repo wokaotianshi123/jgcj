@@ -29,7 +29,7 @@ data_list_for_converted = []
 data_list_for_zytvbox   = []
 data_list_for_ysdqbox   = []
 data_list_for_zypcbox   = []
-data_list_for_hongguo   = []
+
 
 id_counter = itertools.count(1)
 
@@ -87,11 +87,7 @@ for line in lines:
         "resource": "",
         "download": ""
     })
-          # 5. hongguo
-    data_list_for_hongguo.append({
-        "name": name,
-        "url": 'https://cfkua.wokaotianshi.eu.org/' + api_url
-    })
+
 
 
 # ---------- 新增 yuan.json 逻辑 ----------
@@ -108,7 +104,22 @@ yuan_data = {
     "cache_time": 7200,
     "api_site": yuan_api_site
 }
+# ---------- 新增 hongguo.json 逻辑 ----------
+hongguo_api_site = {}
+for line in lines:
+    line = line.strip()
+    if not line or ',' not in line:
+        continue
+    name, api_url = map(str.strip, line.split(',', 1))
+    api_url = api_url.rsplit('/api.php/provide/vod/at/xml', 1)[0]   
+    hongguo_api_site[uid()] = {"name": name, "url": api_url}
 
+hongguo_data = {
+  "format": "duanju-custom-sources",
+  "version": 1,
+  "count": 20,
+  "sites": [hongguo_api_site]
+}
 # ---------- 写出全部 6 个文件 ----------
 def dump(obj, file):
     pathlib.Path(file).write_text(
@@ -119,7 +130,7 @@ dump(data_list_for_zytvbox,   'zytvbox.json')
 dump(data_list_for_ysdqbox,   'ysdqbox.json')
 dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
 dump(yuan_data, 'libretv.json')
-dump(data_list_for_hongguo,   'hongguo.json')
+dump(hongguo_data, 'hongguo.json')
 
 print("全部转换完成！共生成 6 个 json 文件。")
 
