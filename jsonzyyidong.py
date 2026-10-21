@@ -41,13 +41,13 @@ for line in lines:
     if not line or ',' not in line:
         continue
     name, api_url = map(str.strip, line.split(',', 1))
-    api_url = api_url.rsplit('at/xml', 1)[0]          # 去掉尾部 at/xml
+    api_url = api_url.rsplit('api.php/provide/vod/at/xml', 1)[0]          # 去掉尾部 at/xml
 
     # 1. zyvying
     data_list_for_converted.append({
         "key": name,
         "name": name,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'at/xml',
+        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'api.php/provide/vod/at/xml',
         "useInSearchAll": True
     })
 
@@ -56,7 +56,7 @@ for line in lines:
         "key": name,
         "name": name,
         "type": 1,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url,
+        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'api.php/provide/vod/',
         "searchable": 1,
         "recordable": 0
     })
@@ -66,7 +66,7 @@ for line in lines:
         "type": "",
         "sourceName": name,
         "baseUrl": "",
-        "apiUrl": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'at/xml',
+        "apiUrl": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'api.php/provide/vod/at/xml',
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""
@@ -76,7 +76,7 @@ for line in lines:
     data_list_for_zypcbox.append({
         "key": name,
         "name": name,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'at/xml',
+        "api": 'https://cfkua.wokaotianshi.eu.org/' + api_url + 'api.php/provide/vod/at/xml',
         "playUrl": "",
         "search": 1,
         "group": "切片",
