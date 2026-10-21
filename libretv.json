@@ -1,160 +1,160 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "nz20": {
+    "xt2o": {
       "name": "赞助茅台资源站采集接口苹果cms",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod"
     },
-    "lmfh": {
-      "name": "赞助如意资源网采集接口苹果cms/短视频",
+    "a0mi": {
+      "name": "赞助如意资源网采集接口苹果cms",
       "api": "https://cj.rycjapi.com/api.php/provide/vod"
     },
-    "lrkt": {
-      "name": "赞助影剧资源网采集接口苹果cms电影/短视频",
+    "jueh": {
+      "name": "赞助影剧资源网采集接口苹果cms电影",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod"
     },
-    "mtxr": {
-      "name": "赞助黑料资源网采集接口大全苹果cms小说/其他",
+    "s5sg": {
+      "name": "赞助黑料资源网采集接口大全苹果cms小说",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod"
     },
-    "0c41": {
-      "name": "赞助红牛资源采集地址苹果cms电影/短视频/其他",
+    "7g0y": {
+      "name": "赞助红牛资源采集地址苹果cms电影",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod"
     },
-    "4c21": {
-      "name": "赞助光速资源站采集接口地址苹果cms电影/短视频/其他",
+    "1nm4": {
+      "name": "赞助光速资源站采集接口地址苹果cms电影",
       "api": "https://api.guangsuapi.com/api.php/provide/vod"
     },
-    "l85r": {
-      "name": "赞助速播资源采集规则地址苹果cms电影/短视频",
+    "bcmg": {
+      "name": "赞助速播资源采集规则地址苹果cms电影",
       "api": "https://subocj.com/api.php/provide/vod"
     },
-    "3jn9": {
-      "name": "赞助豪华资源网采集接口地址苹果cms电影/短视频/其他",
+    "hc9h": {
+      "name": "赞助豪华资源网采集接口地址苹果cms电影",
       "api": "https://hhzyapi.com/api.php/provide/vod"
     },
-    "ze66": {
-      "name": "赞助虎牙资源采集网采集接口苹果cms电影/短视频",
+    "wwl5": {
+      "name": "赞助虎牙资源采集网采集接口苹果cms电影",
       "api": "https://www.huyaapi.com/api.php/provide/vod"
     },
-    "6f8l": {
-      "name": "赞助爱奇艺资源站采集接口苹果cms电影/短视频/其他",
+    "zegt": {
+      "name": "赞助爱奇艺资源站采集接口苹果cms电影",
       "api": "https://www.iqiyizyapi.com/api.php/provide/vod"
     },
-    "fp57": {
-      "name": "赞助豆瓣资源采集站采集接口大全苹果cms电影/小说/短视频",
+    "annn": {
+      "name": "赞助豆瓣资源采集站采集接口大全苹果cms电影",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod"
     },
-    "mv9k": {
-      "name": "赞助奶香香资源站采集接口API小说/其他",
+    "mky4": {
+      "name": "赞助奶香香资源站采集接口API小说",
       "api": "https://Naixxzy.com/api.php/provide/vod"
     },
-    "0u0h": {
+    "id86": {
       "name": "赞助魔都动漫资源采集网采集接口苹果cms电影",
       "api": "https://www.mdzyapi.com/api.php/provide/vod"
     },
-    "4f1g": {
-      "name": "赞助奥斯卡资源API采集接口大全苹果cms小说/其他",
+    "zbi2": {
+      "name": "赞助奥斯卡资源API采集接口大全苹果cms小说",
       "api": "https://aosikazy.com/api.php/provide/vod"
     },
-    "ef5z": {
-      "name": "赞助玉兔资源采集接口API小说/其他",
+    "wvbj": {
+      "name": "赞助玉兔资源采集接口API小说",
       "api": "https://apiyutu.com/api.php/provide/vod"
     },
-    "dziv": {
-      "name": "赞助ikun资源网采集接口API电影/小说",
+    "af5m": {
+      "name": "赞助ikun资源网采集接口API电影",
       "api": "https://ikunzyapi.com/api.php/provide/vod"
     },
-    "lat5": {
+    "3dzo": {
       "name": "大众资源采集接口苹果cms",
       "api": "https://cdn.dzzyapi.com/api.php/provide/vod"
     },
-    "4ej0": {
+    "trnd": {
       "name": "UU资源网采集接口苹果cms",
       "api": "http://localhost/api.php/provide/vod"
     },
-    "gpsa": {
+    "0bmb": {
       "name": "西瓜资源采集接口苹果cms电影",
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod"
     },
-    "1h8j": {
-      "name": "无水印资源网采集接口苹果cms/短视频",
+    "jzfw": {
+      "name": "无水印资源网采集接口苹果cms",
       "api": "https://api.wsyzy.net/api.php/provide/vod"
     },
-    "uxlr": {
-      "name": "猫眼资源站采集接口苹果cms电影/短视频/其他",
+    "xxk4": {
+      "name": "猫眼资源站采集接口苹果cms电影",
       "api": "https://api.maoyanapi.top/api.php/provide/vod"
     },
-    "tu24": {
-      "name": "OK资源采集网采集接口苹果cms电影/小说/直播/其他",
+    "j9lo": {
+      "name": "OK资源采集网采集接口苹果cms电影直播",
       "api": "http://api.okzyw.net/api.php/provide/vod"
     },
-    "z2ap": {
-      "name": "U酷资源网采集地址苹果cms电影/短视频",
+    "218r": {
+      "name": "U酷资源网采集地址苹果cms电影",
       "api": "https://api.ukuapi88.com/api.php/provide/vod"
     },
-    "2ofp": {
-      "name": "量子资源网资源采集接口苹果cms/短视频",
+    "omsf": {
+      "name": "量子资源网资源采集接口苹果cms",
       "api": "https://cj.lziapi.com/api.php/provide/vod"
     },
-    "7u81": {
-      "name": "最大资源网采集接口苹果cms/小说/直播/其他",
+    "9fjs": {
+      "name": "最大资源网采集接口苹果cms直播",
       "api": "https://api.zuidapi.com/api.php/provide/vod"
     },
-    "e77t": {
-      "name": "天涯影视资源网采集接口苹果cms电影/短视频/其他",
+    "oiu5": {
+      "name": "天涯影视资源网采集接口苹果cms电影",
       "api": "https://tyyszyapi.com/api.php/provide/vod"
     },
-    "mwdi": {
-      "name": "电影天堂采集综合资源接口苹果cms电影/短视频",
+    "qlqh": {
+      "name": "电影天堂采集综合资源接口苹果cms电影",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod"
     },
-    "o9fy": {
-      "name": "百度资源采集接口苹果cms电影/短视频/其他",
+    "myn9": {
+      "name": "百度资源采集接口苹果cms电影",
       "api": "https://api.apibdzy.com/api.php/provide/vod"
     },
-    "79h8": {
-      "name": "鸭鸭（丫丫）资源网采集接口API电影/小说/其他",
+    "95nj": {
+      "name": "鸭鸭（丫丫）资源网采集接口API电影",
       "api": "https://cj.yayazy.net/api.php/provide/vod"
     },
-    "qu2m": {
-      "name": "牛牛资源网采集接口苹果cms电影/小说/其他",
+    "6y8b": {
+      "name": "牛牛资源网采集接口苹果cms电影",
       "api": "https://api.niuniuzy.me/api.php/provide/vod"
     },
-    "h1pv": {
-      "name": "360资源站采集接口苹果cms电影/短视频",
+    "76pw": {
+      "name": "360资源站采集接口苹果cms电影",
       "api": "https://360zyzz.com/api.php/provide/vod"
     },
-    "cn2p": {
-      "name": "极速资源网采集接口苹果cms/短视频",
+    "0lo4": {
+      "name": "极速资源网采集接口苹果cms",
       "api": "https://jszyapi.com/api.php/provide/vod"
     },
-    "v52c": {
-      "name": "暴风资源网采集接口苹果cms电影/短视频",
+    "bjhx": {
+      "name": "暴风资源网采集接口苹果cms电影",
       "api": "https://bfzyapi.com/api.php/provide/vod"
     },
-    "2zw0": {
-      "name": "大地资源采集接口苹果cms小说/其他",
+    "310y": {
+      "name": "大地资源采集接口苹果cms小说",
       "api": "https://dadiapi.com/api.php/provide/vod"
     },
-    "2klf": {
-      "name": "非凡资源网采集接口API电影/短视频",
+    "fa1f": {
+      "name": "非凡资源网采集接口API电影",
       "api": "http://api.ffzyapi.com/api.php/provide/vod"
     },
-    "36bq": {
-      "name": "麒麟资源站全站采集接口苹果cms/短视频",
+    "y8ga": {
+      "name": "麒麟资源站全站采集接口苹果cms",
       "api": "http://www.qilinzyz.com/api.php/provide/vod"
     },
-    "5nvr": {
-      "name": "无尽资源网采集接口苹果cms电影/短视频",
+    "sch6": {
+      "name": "无尽资源网采集接口苹果cms电影",
       "api": "https://api.wujinapi.me/api.php/provide/vod"
     },
-    "xdbc": {
-      "name": "久久热资源网采集接口苹果cms小说/其他",
+    "roku": {
+      "name": "久久热资源网采集接口苹果cms小说",
       "api": "https://99reapi.com/api.php/provide/vod"
     },
-    "ews3": {
-      "name": "极品资源网采集接口苹果cms电影/其他",
+    "74sy": {
+      "name": "极品资源网采集接口苹果cms电影",
       "api": "https://jipinzyapi.com/api.php/provide/vod"
     }
   }
