@@ -23,7 +23,29 @@ DEBUG_PRINT = True # 是否打印每条提取结果
 # 关键词：需要【同时包含】一组里任意一个 + 二组里任意一个
 core_keywords = ["采集接口", "接口大全", "规则地址", "接口地址", "资源接口", "API接口", "采集地址"]
 supplement_keywords = ["资源站", "采集站", "资源网", "采集网", "云播", "资源", "综合"]
+
+# 需要清除的垃圾文本列表
+rubbish_list = [
+    "赞助",
+    "苹果cms", "苹果CMS",
+    "海洋cms", "海洋CMS",
+    "飞飞cms", "飞飞CMS",
+    "马克斯CMS", "马克斯cms",
+    "赞片CMS", "赞片cms",
+    "赤兔CMS", "赤兔cms",
+    "API电影", "电视剧", "动漫", "综艺","失效","api", "体育", "舞蹈", "新闻"
+]
 # -----------------------------------------------------------
+
+def clean_title(raw_text: str) -> str:
+    """清洗标题，剔除后面CMS、分类、赞助后缀，只保留主体名称"""
+    text = raw_text.strip()
+    # 正则：匹配 空格 / 斜杠 分隔的垃圾内容，全部删掉
+    rubbish_pat = re.compile(r"[ /]+(" + "|".join(re.escape(x) for x in rubbish_list) + r")", re.IGNORECASE)
+    text = rubbish_pat.sub("", text)
+    # 清理连续空格
+    text = re.sub(r"\s+", "", text)
+    return text
 
 def safe_get(url, retry=RETRY_TIMES):
     """带重试的requests.get封装"""
@@ -77,18 +99,22 @@ def parse_page(page_url):
     soup = BeautifulSoup(resp.text, "html.parser")
     a_tags = soup.find_all("a")
     for a in a_tags:
-        text = a.get_text(strip=True)
+        raw_text = a.get_text(strip=True)
         href = a.get("href", "").strip()
         # 跳过无效链接
         if not href or href.startswith(("javascript:", "#")):
             continue
-        has_core = any(kw in text for kw in core_keywords)
-        has_supplement = any(kw in text for kw in supplement_keywords)
+        has_core = any(kw in raw_text for kw in core_keywords)
+        has_supplement = any(kw in raw_text for kw in supplement_keywords)
         if has_core and has_supplement:
+            clean_name = clean_title(raw_text)
+            # 清洗后为空就跳过这条
+            if not clean_name:
+                continue
             full_url = urljoin(BASE_URL, href)
-            result.append((text, full_url))
+            result.append((clean_name, full_url))
             if DEBUG_PRINT:
-                print(f"📌 提取: {text},{full_url}")
+                print(f"📌 清洗后: {clean_name},{full_url} 【原始：{raw_text}】")
     return result
 
 def main():
