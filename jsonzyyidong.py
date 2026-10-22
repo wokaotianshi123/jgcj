@@ -99,7 +99,7 @@ for name, api_url in source_list:
     hongguo_cut = api_url.rsplit('/api.php/provide/vod/at/xml', 1)[0]
     hongguo_sites_list.append({
         "name": name,
-        "url": hongguo_cut
+        "url": 'https://cfkua.wokaotianshi.eu.org/' + hongguo_cut
     })
 
 yuan_data = {
