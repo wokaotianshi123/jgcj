@@ -5,123 +5,183 @@
   "sites": [
     {
       "name": "茅台资源站采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "如意资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.rycjapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.rycjapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "影剧资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.maotaizy.cc",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "黑料资源网采集接口大全",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.heiliaozyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.heiliaozyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "红牛资源采集地址",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "光速资源站采集接口地址",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "速播资源采集规则地址",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://subocj.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://subocj.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "豪华资源网采集接口地址",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "虎牙资源采集网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "爱奇艺资源站采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.iqiyizyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "豆瓣资源采集站采集接口大全",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.dbzy5.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.dbzy5.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "奶香香资源站采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://Naixxzy.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://Naixxzy.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "魔都动漫资源采集网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "奥斯卡资源API采集接口大全",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://aosikazy.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://aosikazy.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "玉兔资源采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://apiyutu.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://apiyutu.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "ikun资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "天涯影视资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://tyyszyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://tyyszyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "电影天堂采集综合资源接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/http://caiji.dyttzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "百度资源采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.apibdzy.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "鸭鸭丫丫资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "牛牛资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.niuniuzy.me",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "360资源站采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://360zyzz.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://360zyzz.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "极速资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "暴风资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "大地资源采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "非凡资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "麒麟资源站全站采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "无尽资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.wujinapi.me"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.wujinapi.me",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "久久热资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://99reapi.com",
+      "rule": "",
+      "type": "json"
     },
     {
       "name": "极品资源网采集接口",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jipinzyapi.com"
+      "url": "https://cfkua.wokaotianshi.eu.org/https://jipinzyapi.com",
+      "rule": "",
+      "type": "json"
     }
   ]
 }
