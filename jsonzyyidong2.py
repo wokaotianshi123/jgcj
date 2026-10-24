@@ -6,15 +6,24 @@ zh.py  二合一版本
 2. 新增 libretv.json（yuan.json）
 3. 修复 hongguo.json 格式，sites 为对象数组
 源文件统一使用 maqu.txt
+
+【裁剪兼容两种接口前缀】
+  - https://host/api/provide/vod/at/xml
+  - https://host/api.php/provide/vod/at/xml
+两种地址都会被正确拆出 (scheme+host, 前缀)，再按源站真实前缀重建，
+保证 juliang 这类 /api/ 站点不会被错拼成 /api.php/。
 """
 import json
 import pathlib
 import itertools
 import random
 import string
+import re
 
 # ---------- 通用配置 ----------
 SRC = 'maqu1.txt'
+PROXY = 'https://cfkua.wokaotianshi.eu.org/'
+
 used_key = set()          # 用于生成不重复随机 key
 
 def uid() -> str:
@@ -24,6 +33,31 @@ def uid() -> str:
         if s not in used_key:
             used_key.add(s)
             return s
+
+# 同时识别 /api/ 与 /api.php/ 两种前缀，截出 scheme+host 与 前缀
+#   例：https://hhzyapi.com/api.php/provide/vod/at/xml -> host=https://hhzyapi.com  prefix=api.php
+#       https://api.juliang.live/api/provide/vod/at/xml   -> host=https://api.juliang.live  prefix=api
+_PREFIX_RE = re.compile(r'(https?://[^/]+)/(api\.php|api)(?=/provide/vod)', re.I)
+
+
+def parse_api(api_url):
+    """把一个接口地址拆成 (scheme+host, 前缀)。
+    匹配不到接口路径时退化为只返回 scheme+host，prefix=''。"""
+    m = _PREFIX_RE.search(api_url)
+    if m:
+        return m.group(1), m.group(2).lower()
+    m2 = re.match(r'(https?://[^/]+)', api_url, re.I)
+    return (m2.group(1) if m2 else api_url.rstrip('/')), ''
+
+
+def build_api(api_url, suffix='/provide/vod/at/xml'):
+    """构造代理地址：PROXY + host + '/' + prefix + suffix
+    suffix 默认带 at/xml；zytvbox 用 '/provide/vod/' 即可。"""
+    host, prefix = parse_api(api_url)
+    if prefix:
+        return PROXY + host + '/' + prefix + suffix
+    return PROXY + host + suffix
+
 
 # 全局存储解析好的列表，只读取一次文件
 source_list = []
@@ -46,14 +80,11 @@ yuan_api_site = {}
 hongguo_sites_list = []  # 改成数组，直接存放 {name,url}
 
 for name, api_url in source_list:
-    # 统一裁剪
-    cut_url = api_url.rsplit('api.php/provide/vod/at/xml', 1)[0]
-
     # 1. zyvying
     data_list_for_converted.append({
         "key": name,
         "name": name,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + '/api.php/provide/vod/at/xml',
+        "api": build_api(api_url, '/provide/vod/at/xml'),
         "useInSearchAll": True
     })
     # 2. zytvbox
@@ -61,7 +92,7 @@ for name, api_url in source_list:
         "key": name,
         "name": name,
         "type": 1,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + 'api.php/provide/vod/',
+        "api": build_api(api_url, '/provide/vod/'),
         "searchable": 1,
         "recordable": 0
     })
@@ -70,7 +101,7 @@ for name, api_url in source_list:
         "type": "",
         "sourceName": name,
         "baseUrl": "",
-        "apiUrl": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + 'api.php/provide/vod/at/xml',
+        "apiUrl": build_api(api_url, '/provide/vod/at/xml'),
         "searchUrl": "",
         "detailUrl": "",
         "parserUrl": ""
@@ -79,7 +110,7 @@ for name, api_url in source_list:
     data_list_for_zypcbox.append({
         "key": name,
         "name": name,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + 'api.php/provide/vod/at/xml',
+        "api": build_api(api_url, '/provide/vod/at/xml'),
         "playUrl": "",
         "search": 1,
         "group": "切片",
@@ -91,15 +122,16 @@ for name, api_url in source_list:
         "download": ""
     })
 
-    # libretv.json（原yuan.json）
-    yuan_cut = api_url.rsplit('/at/xml', 1)[0]
+    # libretv.json（原yuan.json）：取 host+prefix+/provide/vod（不含 at/xml）
+    host, prefix = parse_api(api_url)
+    yuan_cut = (host + '/' + prefix) if prefix else host
+    yuan_cut = yuan_cut + '/provide/vod'
     yuan_api_site[uid()] = {"name": name, "api": yuan_cut}
 
-    # hongguo.json 【重点修改】直接append对象到数组
-    hongguo_cut = api_url.rsplit('/api.php/provide/vod/at/xml', 1)[0]
+    # hongguo.json：同样带代理前缀，使用源站真实前缀
     hongguo_sites_list.append({
         "name": name,
-        "url": 'https://cfkua.wokaotianshi.eu.org/' + hongguo_cut + '/api.php/provide/vod/at/xml',
+        "url": build_api(api_url, '/provide/vod/at/xml'),
         "rule": "",
         "type": "json"
     })
@@ -121,11 +153,11 @@ def dump(obj, file):
     pathlib.Path(file).write_text(
         json.dumps(obj, ensure_ascii=False, indent=2), encoding='utf-8')
 
-dump(data_list_for_converted, 'zyvying1.json')
-dump(data_list_for_zytvbox,   'zytvbox1.json')
-dump(data_list_for_ysdqbox,   'ysdqbox1.json')
-dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox1.json')
-dump(yuan_data, 'libretv1.json')
-dump(hongguo_data, 'hongguo1.json')
+dump(data_list_for_converted, 'zyvying.json')
+dump(data_list_for_zytvbox,   'zytvbox.json')
+dump(data_list_for_ysdqbox,   'ysdqbox.json')
+dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
+dump(yuan_data, 'libretv.json')
+dump(hongguo_data, 'hongguo.json')
 
 print(f"全部转换完成！共生成 6 个 json 文件，hongguo.json 内站点数量：{len(hongguo_sites_list)}")
