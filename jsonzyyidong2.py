@@ -14,7 +14,7 @@ import random
 import string
 
 # ---------- 通用配置 ----------
-SRC = 'maqu.txt'
+SRC = 'maqu1.txt'
 used_key = set()          # 用于生成不重复随机 key
 
 def uid() -> str:
@@ -121,11 +121,11 @@ def dump(obj, file):
     pathlib.Path(file).write_text(
         json.dumps(obj, ensure_ascii=False, indent=2), encoding='utf-8')
 
-dump(data_list_for_converted, 'zyvying.json')
-dump(data_list_for_zytvbox,   'zytvbox.json')
-dump(data_list_for_ysdqbox,   'ysdqbox.json')
-dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox.json')
-dump(yuan_data, 'libretv.json')
-dump(hongguo_data, 'hongguo.json')
+dump(data_list_for_converted, 'zyvying1.json')
+dump(data_list_for_zytvbox,   'zytvbox1.json')
+dump(data_list_for_ysdqbox,   'ysdqbox1.json')
+dump({"tbl_site": data_list_for_zypcbox}, 'zypcbox1.json')
+dump(yuan_data, 'libretv1.json')
+dump(hongguo_data, 'hongguo1.json')
 
 print(f"全部转换完成！共生成 6 个 json 文件，hongguo.json 内站点数量：{len(hongguo_sites_list)}")
