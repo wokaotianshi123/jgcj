@@ -1,0 +1,49 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'
+  workflow_dispatch: # 允许手动触发
+  #push: # 提交时触发
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml_html_clean requests-html
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 2
+          keep_minimum_runs: 6
+        
+      - name: Run script
+        run: |
+          python extract_zzzy.py
+          python jsonzyyidong2.py
+        # 替换为您的Python脚本文件名(运行不了了，能运行放最前面）
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain)" ]; then
+          git add '*.txt' '*.json'
+          git commit -m "Automatic update"
+          git push
+          else
+          echo "No changes detected, skipping commit."
+          fi
