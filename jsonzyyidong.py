@@ -53,7 +53,7 @@ for name, api_url in source_list:
     data_list_for_converted.append({
         "key": name,
         "name": name,
-        "api": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + 'api.php/provide/vod/at/xml',
+        "api": 'https://cfkua.wokaotianshi.eu.org/' + cut_url + '/api.php/provide/vod/at/xml',
         "useInSearchAll": True
     })
     # 2. zytvbox
@@ -99,7 +99,7 @@ for name, api_url in source_list:
     hongguo_cut = api_url.rsplit('/api.php/provide/vod/at/xml', 1)[0]
     hongguo_sites_list.append({
         "name": name,
-        "url": 'https://cfkua.wokaotianshi.eu.org/' + hongguo_cut + 'api.php/provide/vod/at/xml',
+        "url": 'https://cfkua.wokaotianshi.eu.org/' + hongguo_cut + '/api.php/provide/vod/at/xml',
         "rule": "",
         "type": "json"
     })
