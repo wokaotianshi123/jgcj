@@ -1,7 +1,7 @@
 {
   "format": "duanju-custom-sources",
   "version": 1,
-  "count": 54,
+  "count": 52,
   "sites": [
     {
       "name": "ok资源站",
@@ -10,14 +10,14 @@
       "type": "json"
     },
     {
-      "name": "母鸡资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+      "name": "厂长资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.changzhang.tv/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
     {
-      "name": "最大资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
+      "name": "巨量资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -34,8 +34,14 @@
       "type": "json"
     },
     {
-      "name": "巨量资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
+      "name": "母鸡资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "最大资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -46,26 +52,26 @@
       "type": "json"
     },
     {
-      "name": "厂长资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.changzhang.tv/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "非凡资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "无水印资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/at/xml",
+      "name": "猫眼资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
     {
       "name": "西瓜资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "鸭鸭资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "非凡资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -82,8 +88,8 @@
       "type": "json"
     },
     {
-      "name": "鸭鸭资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/at/xml",
+      "name": "无水印资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -94,38 +100,14 @@
       "type": "json"
     },
     {
-      "name": "猫眼资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "虎牙资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "豆瓣资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://caiji.dbzy5.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "麒麟资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com/api.php/provide/vod/at/xml",
+      "name": "极速资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
     {
       "name": "iKun资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "极速资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -142,32 +124,20 @@
       "type": "json"
     },
     {
+      "name": "虎牙资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
       "name": "暴风资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
     {
-      "name": "红牛资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "魔都资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "豪华资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "光速资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+      "name": "麒麟资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -178,8 +148,32 @@
       "type": "json"
     },
     {
+      "name": "豪华资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "红牛资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
       "name": "速播资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://subocj.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "光速资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "新浪资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.xinlangapi.com/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -190,8 +184,20 @@
       "type": "json"
     },
     {
-      "name": "新浪资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.xinlangapi.com/provide/vod/at/xml",
+      "name": "魔都资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "精品98",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://jp98.vip/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "星夜资源站",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://xyezy.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -208,20 +214,20 @@
       "type": "json"
     },
     {
+      "name": "免费资源站",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
       "name": "火速资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
     {
-      "name": "星夜资源站",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://xyezy.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "极品资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jipinvip1.com/api.php/provide/vod/at/xml",
+      "name": "黑料资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -238,44 +244,8 @@
       "type": "json"
     },
     {
-      "name": "精品98",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jp98.vip/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "免费资源站",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "黑料资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
       "name": "小鸡资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://api.xjzyapi.com/api/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "奶香香资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://naixxzy.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "大地资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "桃花资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -286,26 +256,8 @@
       "type": "json"
     },
     {
-      "name": "jkun资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "CK伦理资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "杏吧资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/at/xml",
-      "rule": "",
-      "type": "json"
-    },
-    {
-      "name": "搜av资源",
-      "url": "https://cfkua.wokaotianshi.eu.org/https://api.souavzyw.net/api.php/provide/vod/at/xml",
+      "name": "大地资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },
@@ -316,8 +268,44 @@
       "type": "json"
     },
     {
+      "name": "奶香香资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://naixxzy.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "杏吧资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "CK伦理资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "桃花资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "搜av资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://api.souavzyw.net/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
       "name": "奥斯卡资源",
       "url": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/at/xml",
+      "rule": "",
+      "type": "json"
+    },
+    {
+      "name": "jkun资源",
+      "url": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
       "rule": "",
       "type": "json"
     },

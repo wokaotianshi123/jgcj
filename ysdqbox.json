@@ -10,18 +10,18 @@
   },
   {
     "type": "",
-    "sourceName": "母鸡资源",
+    "sourceName": "厂长资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.changzhang.tv/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
   },
   {
     "type": "",
-    "sourceName": "最大资源",
+    "sourceName": "巨量资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -46,9 +46,18 @@
   },
   {
     "type": "",
-    "sourceName": "巨量资源",
+    "sourceName": "母鸡资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "最大资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.zuidapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -64,27 +73,9 @@
   },
   {
     "type": "",
-    "sourceName": "厂长资源",
+    "sourceName": "猫眼资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.changzhang.tv/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "非凡资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "无水印资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -94,6 +85,24 @@
     "sourceName": "西瓜资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "鸭鸭资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "非凡资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://api.ffzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -118,9 +127,9 @@
   },
   {
     "type": "",
-    "sourceName": "鸭鸭资源",
+    "sourceName": "无水印资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://cj.yayazy.net/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.wsyzy.net/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -136,36 +145,9 @@
   },
   {
     "type": "",
-    "sourceName": "猫眼资源",
+    "sourceName": "极速资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.maoyanapi.top/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "虎牙资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "豆瓣资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.dbzy5.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "麒麟资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -175,15 +157,6 @@
     "sourceName": "iKun资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://ikunzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "极速资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jszyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -208,6 +181,15 @@
   },
   {
     "type": "",
+    "sourceName": "虎牙资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.huyaapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "暴风资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://bfzyapi.com/api.php/provide/vod/at/xml",
@@ -217,36 +199,9 @@
   },
   {
     "type": "",
-    "sourceName": "红牛资源",
+    "sourceName": "麒麟资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "魔都资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "豪华资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "光速资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://www.qilinzyz.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -262,9 +217,45 @@
   },
   {
     "type": "",
+    "sourceName": "豪华资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://hhzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "红牛资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "速播资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://subocj.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "光速资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "新浪资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.xinlangapi.com/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -280,9 +271,27 @@
   },
   {
     "type": "",
-    "sourceName": "新浪资源",
+    "sourceName": "魔都资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.xinlangapi.com/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.mdzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "精品98",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jp98.vip/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "星夜资源站",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://xyezy.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -307,6 +316,15 @@
   },
   {
     "type": "",
+    "sourceName": "免费资源站",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "火速资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/at/xml",
@@ -316,18 +334,9 @@
   },
   {
     "type": "",
-    "sourceName": "星夜资源站",
+    "sourceName": "黑料资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://xyezy.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "极品资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jipinvip1.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -352,63 +361,9 @@
   },
   {
     "type": "",
-    "sourceName": "精品98",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jp98.vip/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "免费资源站",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "黑料资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "小鸡资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.xjzyapi.com/api/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "奶香香资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://naixxzy.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "大地资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "桃花资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -424,36 +379,9 @@
   },
   {
     "type": "",
-    "sourceName": "jkun资源",
+    "sourceName": "大地资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "CK伦理资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "杏吧资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "搜av资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.souavzyw.net/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://dadiapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -469,9 +397,63 @@
   },
   {
     "type": "",
+    "sourceName": "奶香香资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://naixxzy.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "杏吧资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "CK伦理资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "桃花资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "搜av资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.souavzyw.net/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "奥斯卡资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "jkun资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
