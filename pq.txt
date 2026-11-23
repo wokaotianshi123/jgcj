@@ -1,5 +1,8 @@
 茅台资源站采集接口,https://www.yszzq.com/ziyuan/api/216.html
 如意资源网采集接口,https://www.yszzq.com/ziyuan/api/205.html
+星夜资源站采集接口,https://www.yszzq.com/ziyuan/api/254.html
+看看资源采集接口,https://www.yszzq.com/ziyuan/api/253.html
+新芒果资源站采集接口,https://www.yszzq.com/ziyuan/api/251.html
 巨量资源网采集接口,https://www.yszzq.com/ziyuan/api/250.html
 影剧资源网采集接口,https://www.yszzq.com/ziyuan/api/240.html
 黑料资源网采集接口大全,https://www.yszzq.com/ziyuan/api/233.html
@@ -17,6 +20,10 @@
 奥斯卡资源API采集接口大全,https://www.yszzq.com/ziyuan/api/155.html
 玉兔资源采集接口,https://www.yszzq.com/ziyuan/api/169.html
 ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
+OK资源采集网采集接口,https://www.yszzq.com/ziyuan/api/235.html
+U酷资源网采集地址,https://www.yszzq.com/ziyuan/api/127.html
+量子资源网资源采集接口,https://www.yszzq.com/ziyuan/api/142.html
+最大资源网采集接口,https://www.yszzq.com/ziyuan/api/236.html
 天涯影视资源网采集接口,https://www.yszzq.com/ziyuan/api/221.html
 电影天堂采集综合资源接口,https://www.yszzq.com/ziyuan/api/218.html
 百度资源采集接口,https://www.yszzq.com/ziyuan/api/123.html
