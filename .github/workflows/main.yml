@@ -1,20 +1,34 @@
-name: Run Python Script
+name: 采集站源并生成配置
+
+# 两个采集源现在由同一条流水线统一处理：
+#   collect-a —— 影视站之家（原 main.yml）
+#   collect-b —— zzzypro（原 main2.yml）
+# 两个采集任务并行跑，merge 任务等两边都完成后把结果合并去重，
+# 再一次性生成 6 份配置并提交，避免两个工作流互相覆盖。
+#
+# main2.yml 也在同一时间定时触发并调用本工作流；下面的 concurrency
+# 会把两次运行排队，确保后一次读到前一次刚提交的源文件，结果一致。
 
 on:
-  #schedule:
-  #  - cron: '0 0 */3 * *'
-  workflow_dispatch: # 允许手动触发
-  #push: # 提交时触发
+  schedule:
+    - cron: '0 0 */3 * *'
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: jgcj-collect
+  cancel-in-progress: false
 
 jobs:
-  run-script:
+  collect-a:
+    name: 采集源 A（影视站之家）
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
@@ -23,28 +37,91 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml_html_clean requests-html
 
-      - name: Delete workflow runs
+      - name: 采集并提取接口
+        run: |
+          python xinpq.py
+          python lins.py
+
+      - name: Upload source A
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-a
+          path: |
+            maqu.txt
+            pq.txt
+          if-no-files-found: error
+
+  collect-b:
+    name: 采集源 B（zzzypro）
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 采集接口（仅标准库，无需 pip 依赖）
+        run: python extract_zzzy.py maqu1.txt
+
+      - name: Upload source B
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-b
+          path: maqu1.txt
+          if-no-files-found: error
+
+  merge:
+    name: 合并去重并生成配置
+    needs: [collect-a, collect-b]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Download both sources
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: 用两份最新源文件覆盖仓库内的旧文件
+        run: |
+          cp artifacts/source-a/maqu.txt maqu.txt
+          cp artifacts/source-a/pq.txt pq.txt
+          cp artifacts/source-b/maqu1.txt maqu1.txt
+
+      - name: 合并去重并生成配置
+        run: python build_json.py maqu.txt maqu1.txt
+
+      - name: Delete old workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
           retain_days: 2
           keep_minimum_runs: 6
-        
-      - name: Run script
-        run: |
-          python xinpq.py
-          python lins.py
-          python jsonzyyidong.py
-        # 替换为您的Python脚本文件名(运行不了了，能运行放最前面）
+
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
+          git add maqu.txt maqu1.txt pq.txt \
+                  hongguo.json libretv.json zcying.json \
+                  zypcbox.json zytvbox.json zyvying.json \
+                  ysdqbox.json
           if [ -n "$(git status --porcelain)" ]; then
-          git add '*.txt' '*.json'
-          git commit -m "Automatic update"
-          git push
+            git commit -m "Automatic update: 合并两站采集源并生成配置"
+            git push
           else
-          echo "No changes detected, skipping commit."
+            echo "No changes detected, skipping commit."
           fi
