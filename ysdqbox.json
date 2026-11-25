@@ -325,9 +325,27 @@
   },
   {
     "type": "",
+    "sourceName": "巨量资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "吉吉资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/http://caiji.jjzyapi.com/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "母鸡资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -343,18 +361,18 @@
   },
   {
     "type": "",
-    "sourceName": "巨量资源",
+    "sourceName": "樱花资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
   },
   {
     "type": "",
-    "sourceName": "母鸡资源",
+    "sourceName": "西瓜资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -379,27 +397,9 @@
   },
   {
     "type": "",
-    "sourceName": "樱花资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "索尼资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://suoniapi.com/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "西瓜资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -424,6 +424,24 @@
   },
   {
     "type": "",
+    "sourceName": "火速资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
+    "sourceName": "嘿嘿资源",
+    "baseUrl": "",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.heiapi.cc/api.php/provide/vod/at/xml",
+    "searchUrl": "",
+    "detailUrl": "",
+    "parserUrl": ""
+  },
+  {
+    "type": "",
     "sourceName": "金鹰资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jyzyapi.com/api/provide/vod/at/xml",
@@ -442,9 +460,9 @@
   },
   {
     "type": "",
-    "sourceName": "免费资源站",
+    "sourceName": "黑料资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -460,15 +478,6 @@
   },
   {
     "type": "",
-    "sourceName": "嘿嘿资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.heiapi.cc/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
     "sourceName": "红楼资源",
     "baseUrl": "",
     "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://www.hlzyapi.vip/api.php/provide/vod/at/xml",
@@ -478,18 +487,9 @@
   },
   {
     "type": "",
-    "sourceName": "火速资源",
+    "sourceName": "免费资源站",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/at/xml",
-    "searchUrl": "",
-    "detailUrl": "",
-    "parserUrl": ""
-  },
-  {
-    "type": "",
-    "sourceName": "黑料资源",
-    "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://yuanlib.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -505,18 +505,18 @@
   },
   {
     "type": "",
-    "sourceName": "小鸡资源",
+    "sourceName": "桃花资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.xjzyapi.com/api/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
   },
   {
     "type": "",
-    "sourceName": "桃花资源",
+    "sourceName": "小鸡资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.xjzyapi.com/api/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -532,18 +532,18 @@
   },
   {
     "type": "",
-    "sourceName": "CK伦理资源",
+    "sourceName": "jkun资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
   },
   {
     "type": "",
-    "sourceName": "jkun资源",
+    "sourceName": "CK伦理资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://ckzy.me/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
@@ -568,18 +568,18 @@
   },
   {
     "type": "",
-    "sourceName": "奥斯卡资源",
+    "sourceName": "豆豆资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
   },
   {
     "type": "",
-    "sourceName": "豆豆资源",
+    "sourceName": "奥斯卡资源",
     "baseUrl": "",
-    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/at/xml",
+    "apiUrl": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/at/xml",
     "searchUrl": "",
     "detailUrl": "",
     "parserUrl": ""
