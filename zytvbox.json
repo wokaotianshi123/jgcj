@@ -288,14 +288,6 @@
     "recordable": 0
   },
   {
-    "key": "巨量资源",
-    "name": "巨量资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "吉吉资源",
     "name": "吉吉资源",
     "type": 1,
@@ -304,10 +296,18 @@
     "recordable": 0
   },
   {
-    "key": "母鸡资源",
-    "name": "母鸡资源",
+    "key": "樱花资源",
+    "name": "樱花资源",
     "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "巨量资源",
+    "name": "巨量资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.juliang.live/api/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -316,14 +316,6 @@
     "name": "厂长资源",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.changzhang.tv/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "樱花资源",
-    "name": "樱花资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://m3u8.apiyhzy.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -360,10 +352,10 @@
     "recordable": 0
   },
   {
-    "key": "快车资源",
-    "name": "快车资源",
+    "key": "母鸡资源",
+    "name": "母鸡资源",
     "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.kuaichezy.org/api.php/provide/vod/",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://mujiziyuan00.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -372,22 +364,6 @@
     "name": "新浪资源",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.xinlangapi.com/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "火速资源",
-    "name": "火速资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "嘿嘿资源",
-    "name": "嘿嘿资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://api.heiapi.cc/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -408,26 +384,10 @@
     "recordable": 0
   },
   {
-    "key": "黑料资源",
-    "name": "黑料资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "精品98",
     "name": "精品98",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://jp98.vip/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "红楼资源",
-    "name": "红楼资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://www.hlzyapi.vip/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -440,6 +400,38 @@
     "recordable": 0
   },
   {
+    "key": "嘿嘿资源",
+    "name": "嘿嘿资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.heiapi.cc/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "火速资源",
+    "name": "火速资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://api.huosuapi.cc/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "红楼资源",
+    "name": "红楼资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://www.hlzyapi.vip/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "黑料资源",
+    "name": "黑料资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://heiliaozyapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "黄色仓库",
     "name": "黄色仓库",
     "type": 1,
@@ -448,10 +440,10 @@
     "recordable": 0
   },
   {
-    "key": "桃花资源",
-    "name": "桃花资源",
+    "key": "快车资源",
+    "name": "快车资源",
     "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/",
+    "api": "https://cfkua.wokaotianshi.eu.org/https://caiji.kuaichezy.org/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -464,22 +456,6 @@
     "recordable": 0
   },
   {
-    "key": "杏吧资源",
-    "name": "杏吧资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "jkun资源",
-    "name": "jkun资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
     "key": "CK伦理资源",
     "name": "CK伦理资源",
     "type": 1,
@@ -488,10 +464,42 @@
     "recordable": 0
   },
   {
+    "key": "桃花资源",
+    "name": "桃花资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://thzy1.me/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
     "key": "大奶子资源",
     "name": "大奶子资源",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://apidanaizi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "杏吧资源",
+    "name": "杏吧资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://xingba111.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "奥斯卡资源",
+    "name": "奥斯卡资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/",
+    "searchable": 1,
+    "recordable": 0
+  },
+  {
+    "key": "jkun资源",
+    "name": "jkun资源",
+    "type": 1,
+    "api": "https://cfkua.wokaotianshi.eu.org/https://jkunzyapi.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },
@@ -508,14 +516,6 @@
     "name": "豆豆资源",
     "type": 1,
     "api": "https://cfkua.wokaotianshi.eu.org/https://api.douapi.cc/api.php/provide/vod/",
-    "searchable": 1,
-    "recordable": 0
-  },
-  {
-    "key": "奥斯卡资源",
-    "name": "奥斯卡资源",
-    "type": 1,
-    "api": "https://cfkua.wokaotianshi.eu.org/https://aosikazy1.com/api.php/provide/vod/",
     "searchable": 1,
     "recordable": 0
   },

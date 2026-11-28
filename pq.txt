@@ -20,6 +20,7 @@
 奥斯卡资源API采集接口大全,https://www.yszzq.com/ziyuan/api/155.html
 玉兔资源采集接口,https://www.yszzq.com/ziyuan/api/169.html
 ikun资源网采集接口,https://www.yszzq.com/ziyuan/api/188.html
+优质资源库采集接口,https://www.yszzq.com/ziyuan/api/149.html
 OK资源采集网采集接口,https://www.yszzq.com/ziyuan/api/235.html
 U酷资源网采集地址,https://www.yszzq.com/ziyuan/api/127.html
 量子资源网资源采集接口,https://www.yszzq.com/ziyuan/api/142.html
